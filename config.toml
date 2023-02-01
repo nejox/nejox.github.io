@@ -1,0 +1,4 @@
+baseURL = 'https://nejox.github.io/'
+languageCode = 'en-us'
+title = 'Jochen Schmidt'
+theme = "introduction"
