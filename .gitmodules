@@ -4,3 +4,9 @@
 [submodule "themes/ananke"]
 	path = themes/ananke
 	url = https://github.com/theNewDynamic/gohugo-theme-ananke
+[submodule "themes/casper"]
+	path = themes/casper
+	url = https://github.com/vjeantet/hugo-theme-casper.git
+[submodule "themes/memex"]
+	path = themes/memex
+	url = https://github.com/reuixiy/hugo-theme-meme.git
