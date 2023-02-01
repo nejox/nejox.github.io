@@ -5,6 +5,9 @@ on:
     workflows: ["Deploy"]
     types: [completed]
 
+env:
+  URL: https://nejox.github.io/
+
 jobs:
   check:
     runs-on: ubuntu-latest
