@@ -18,7 +18,11 @@ pygmentsStyle = "monokai"
   accentColor = "#ffa64d"
 
 
-  customHeadHTML = ""
+  customHeadHTML = """
+  <script>
+      document.getElementsByClassName("footer")[0].childNodes[2].remove()
+  </script>
+  """
   
   socialIcons = [
     {name = "linkedin", url = "https://www.linkedin.com/in/jochen-schmidt96/"},
