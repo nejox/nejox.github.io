@@ -10,3 +10,6 @@
 [submodule "themes/memex"]
 	path = themes/memex
 	url = https://github.com/reuixiy/hugo-theme-meme.git
+[submodule "themes/gokarna"]
+	path = themes/gokarna
+	url = https://github.com/526avijitgupta/gokarna.git
