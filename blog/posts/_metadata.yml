@@ -1,0 +1,6 @@
+# Applies to every post in this folder.
+
+# Render code once locally and commit _freeze/, so CI needs no Python.
+freeze: true
+
+title-block-banner: true
