@@ -1,0 +1,27 @@
+project:
+  type: website
+  resources:
+    - apple-touch-icon.png
+  # The blog is scaffolded but not published yet. To launch it, delete the
+  # "!blog/" line and add the navbar from README.md.
+  render:
+    - "*.qmd"
+    - "!blog/"
+
+website:
+  title: "Jochen Schmidt"
+  description: "Senior Machine Learning Engineer. Demand forecasting in production."
+  site-url: https://nejox.github.io
+  favicon: favicon.ico
+  image: images/profile.jpg
+  open-graph: true
+  search: false
+
+format:
+  html:
+    theme:
+      light: [flatly, styles.scss, light.scss]
+      dark: [darkly, styles.scss, dark.scss]
+    respect-user-color-scheme: true
+    include-in-header:
+      text: <link rel="apple-touch-icon" href="/apple-touch-icon.png">

@@ -1,0 +1,114 @@
+---
+title: "Jochen Schmidt"
+subtitle: "Senior Machine Learning Engineer"
+image: images/profile.jpg
+about:
+  template: trestles
+  image-shape: round
+  image-width: 13em
+  links:
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/jochen-schmidt96/
+    - icon: github
+      text: GitHub
+      href: https://github.com/nejox
+    - icon: envelope
+      text: Email
+      href: mailto:schmidtjochen@gmx.net
+    - text: Kaggle
+      href: https://www.kaggle.com/nejoxx
+---
+
+I'm a machine learning engineer focused on what comes after training: getting models into production and keeping them reliable there. At [AIPERIA](https://aiperia.com/en) I lead the demand forecasting domain end to end, from the data and the ML platform to the engineering standards of the team. I also drive agentic AI in our day-to-day development, from an in-house Claude Code plugin to an agent that fixes bugs on its own.
+
+I came to ML through a software engineering apprenticeship, a BEng in Computer Science and an MSc in Artificial Intelligence, with research on learning from data streams along the way.
+
+## Experience
+
+### Senior Machine Learning Engineer · Domain Lead Forecasting
+
+[[AIPERIA](https://aiperia.com/en) · Würzburg · Mar\ 2026 – present]{.meta}
+
+AI-driven demand planning for fresh goods. Technical ownership of the whole forecasting domain.
+
+- Own forecasting end to end: from raw data to the forecasts customers plan with every day.
+- Rebuilt the ML platform: experiments, training and deployment now run end to end on Kedro, Apache Airflow, MLflow and AWS SageMaker, shipped with Docker and GitLab CI/CD.
+- Designed a configuration framework that generates customer-specific and generic Airflow DAGs from config instead of code. Now used across teams.
+- Introduced agentic development at the company: a Claude Code plugin with Jira and Confluence integration, and an agent that picks up bugs from Jira, fixes them in GitLab CI/CD and opens the merge request.
+- Set engineering standards for the data science team (up to 7 people): code reviews across the team, onboarding new colleagues to the stack and ways of working.
+
+### Machine Learning Engineer
+
+[[AIPERIA](https://aiperia.com/en) · Würzburg · May\ 2024 – Feb\ 2026]{.meta}
+
+- Built forecasting models and took them to production, from feature engineering and training to evaluation and error analysis (Python, Polars, LightGBM, XGBoost, Optuna, MLflow, AWS SageMaker, S3).
+- Improved forecast quality across all customers by about 10% through better features and many small, carefully measured experiments.
+- Cut the runtime of data and training pipelines by 30 to 50%, one pipeline at a time: measure first, then optimize.
+
+### Master's Thesis
+
+[[AIPERIA](https://aiperia.com/en) · Würzburg · Aug\ 2023 – Apr\ 2024]{.meta}
+
+Transfer learning for demand forecasting with sparse data in bakery chains, built directly in AIPERIA's product context.
+
+### Founding Software Engineer (alongside studies)
+
+[Circable GmbH · Würzburg · Apr\ 2023 – Jan\ 2024]{.meta}
+
+IT refurbishing startup. Built the backend for residual value pricing (FastAPI, PostgreSQL, Docker) and sourced its data through web scraping.
+
+### Student Research Assistant
+
+[[THWS](https://www.thws.de/en/) · Würzburg · 2021 – 2023]{.meta}
+
+Research on online machine learning on data streams (feature drift, concept drift). Presented the results as first author at IEEE SSCI 2022 in Singapore.
+
+### Working Student, Backend Development
+
+[[Plunet](https://www.plunet.com/en/) · Würzburg · 2019 – 2020]{.meta}
+
+Backend development in Java.
+
+## Education
+
+### MSc Artificial Intelligence (grade 1.3)
+
+[[THWS](https://www.thws.de/en/) · 2022 – 2024]{.meta}
+
+Thesis: *Bridging Data Gaps in Bakery Chains: A Transfer Learning Approach to Enhance Forecasting and Reduce Waste*
+
+### BEng Computer Science (grade 1.4)
+
+[[THWS](https://www.thws.de/en/) · 2018 – 2022]{.meta}
+
+Thesis: *Metric Adaptation for Prototype-Based Streaming Analysis*. Semester abroad at ISEP, Porto.
+
+### Apprenticeship as Software Developer
+
+[[FIS Informationssysteme und Consulting](https://www.fis-gmbh.de/en/) · 2013 – 2016]{.meta}
+
+ABAP and SAP UI5 development in internal and customer projects, then kept on as SAP developer until 2017.
+
+## Publications & Awards
+
+- **Handling Feature Drift with Relevance Learning.** First-author poster, IEEE SSCI 2022, Singapore. [PDF](https://drive.google.com/file/d/1QCXBKuA0TJraQk_EimCz3bHLpWq6r282/view?usp=sharing)
+- **Professor Wolfgang Maria Fischer Award 2023.** Best graduate of the year, BEng Computer Science.
+- **Deutschlandstipendium 2021.** Merit-based scholarship.
+
+## Skills
+
+ML & Data
+: Python, Polars, pandas, scikit-learn, LightGBM, XGBoost, PyTorch, Optuna, SHAP
+
+Cloud & MLOps
+: AWS (SageMaker, S3), Docker, GitLab CI/CD, MLflow, Apache Airflow, Kedro, Grafana, Kubernetes (basics)
+
+GenAI & Agents
+: Claude Code (CLI, plugins, CI/CD automation), OpenAI Codex, Model Context Protocol (MCP)
+
+Engineering
+: SQL, FastAPI, Java, C++, Git, Scrum
+
+Languages
+: German (native), English (C1)

@@ -1,0 +1,33 @@
+/*-- scss:defaults --*/
+// No Google Fonts: Bootswatch would load Lato from Google's CDN.
+$web-font-path: false;
+$font-family-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+
+/*-- scss:rules --*/
+// Company, place and dates under each experience or education heading.
+.meta {
+  display: block;
+  margin-top: -0.4rem;
+  margin-bottom: 0.5rem;
+  color: $text-muted;
+}
+
+h3 {
+  margin-top: 1.75rem;
+}
+
+// Trestles drops all top padding on narrow screens; the photo would touch the edge.
+@include media-breakpoint-down(lg) {
+  div.quarto-about-trestles {
+    padding-top: 1.5rem !important;
+  }
+}
+
+// Keep photo and links in view while scrolling the long right column.
+@include media-breakpoint-up(lg) {
+  .quarto-about-trestles .about-entity {
+    position: sticky;
+    top: 2rem;
+    align-self: flex-start;
+  }
+}
