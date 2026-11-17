@@ -4,30 +4,61 @@ $web-font-path: false;
 $font-family-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 
 /*-- scss:rules --*/
-// Company, place and dates under each experience or education heading.
-.meta {
-  display: block;
-  margin-top: -0.4rem;
-  margin-bottom: 0.5rem;
-  color: $text-muted;
-}
+.landing {
+  min-height: 100vh;
+  padding: 2rem 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 
-h3 {
-  margin-top: 1.75rem;
-}
-
-// Trestles drops all top padding on narrow screens; the photo would touch the edge.
-@include media-breakpoint-down(lg) {
-  div.quarto-about-trestles {
-    padding-top: 1.5rem !important;
+  .avatar {
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+    margin-bottom: 1.5rem;
   }
-}
 
-// Keep photo and links in view while scrolling the long right column.
-@include media-breakpoint-up(lg) {
-  .quarto-about-trestles .about-entity {
-    position: sticky;
-    top: 2rem;
-    align-self: flex-start;
+  h1 {
+    margin: 0;
+    font-size: 2.5rem;
+    font-weight: 700;
+    letter-spacing: -0.02em;
+  }
+
+  .role {
+    margin: 0.5rem 0 0;
+    font-size: 1.25rem;
+  }
+
+  .intro {
+    max-width: 32rem;
+    margin: 1.25rem 0 0;
+    line-height: 1.6;
+  }
+
+  .links {
+    display: flex;
+    gap: 1.5rem;
+    margin-top: 2rem;
+    font-size: 1.5rem;
+
+    a {
+      color: $body-color;
+      transition: color 0.15s;
+
+      &:hover,
+      &:focus-visible {
+        color: $primary;
+      }
+    }
+
+    svg {
+      width: 1em;
+      height: 1em;
+      fill: currentColor;
+      vertical-align: -0.125em;
+    }
   }
 }

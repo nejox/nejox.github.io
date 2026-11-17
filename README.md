@@ -17,9 +17,9 @@ Every push to `dev` renders the site and deploys it to GitHub Pages (`.github/wo
 
 | Path | What |
 |---|---|
-| `index.qmd` | The one-pager: about, experience, education, skills |
+| `index.qmd` | Landing page: photo, name, role, links |
 | `_quarto.yml` | Site config |
-| `styles.scss`, `light.scss`, `dark.scss` | Shared rules, light and dark accent colors |
+| `styles.scss`, `light.scss`, `dark.scss` | Landing page styles, light and dark accent colors |
 | `blog/` | Blog scaffold, not published yet |
 
 ## Launching the blog
